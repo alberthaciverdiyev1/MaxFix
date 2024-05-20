@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxFix Web", "MaxFix Web\MaxFix Web.csproj", "{807A43B7-35B2-469D-8C06-EDC91CBEF4DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807A43B7-35B2-469D-8C06-EDC91CBEF4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807A43B7-35B2-469D-8C06-EDC91CBEF4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807A43B7-35B2-469D-8C06-EDC91CBEF4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807A43B7-35B2-469D-8C06-EDC91CBEF4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F19ABCE2-7EFF-4DFE-8BC7-AE5BD3851B51}
+	EndGlobalSection
+EndGlobal
