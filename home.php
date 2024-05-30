@@ -45,7 +45,7 @@ $response = curl_exec($ch);
 // echo $response;
 
 if (curl_errno($ch)) {
-    echo 'cURL Hatası: ' . curl_error($ch);
+    echo 'cURL Error: ' . curl_error($ch);
 } else {
     $responseArray = json_decode($response, true);
 
@@ -60,7 +60,7 @@ if (curl_errno($ch)) {
     foreach ($serviceCards as $serviceCard) {
         $serviceName = $xpath->query('.//span[@class="booknetic_service_title_span"]', $serviceCard)->item(0)->nodeValue;
         $servicePrice = $xpath->query('.//div[@class="booknetic_service_card_price"]', $serviceCard)->item(0)->nodeValue;
-        echo "Servis İsmi: $serviceName, Fiyatı: $servicePrice\n";
+        echo "Service Name: $serviceName, Price: $servicePrice\n";
     }
 }
 
